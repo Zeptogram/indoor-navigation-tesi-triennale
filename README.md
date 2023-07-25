@@ -42,7 +42,7 @@ Sviluppare un’app che funzioni per l’indoor che individua il percorso per au
 - **Informarsi su**: Come vengono visualizzate le mappe e i percorsi.
 - **Cercare**: App su Apple o Google Play simili alla richiesta.
 
-## ToDo List
+## Obiettivi
 
 - Ricerca di validi servizi per Mapping e Navigation.
 - Analisi sulla rappresentazione dei dati.
@@ -52,9 +52,10 @@ Sviluppare un’app che funzioni per l’indoor che individua il percorso per au
 
 ## Studenti
 
-- Biancini Mattia 865966
-- Gargiulo Elio 869184
-
+Lo stage è stato svolto da:
+- Gargiulo Elio
+- Biancini Mattia
+  
 ## Riferimenti Stage
 - **Tutor Universitario**: Prof. Micucci _<daniela.micucci@unimib.it>_
 - **Tutor Aziendale**: Prof. Ginelli _<davide.ginelli@unimib.it>_
