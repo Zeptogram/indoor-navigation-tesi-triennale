@@ -10,7 +10,7 @@
 # Autore e Ulteriori Informazioni
 
 - **Autore**: Elio Gargiulo
-- **Università**: Università degli studi Bicocca, Milano
+- **Università**: Università degli Studi Bicocca, Milano
 - **Anno Accademico**: 2022/23
 
 # Stage
