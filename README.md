@@ -329,7 +329,7 @@ La schermata iniziale dell'applicazione dove si effettua il login tramite email 
 
 <br>
 
-La schermata per la registrazioe di un utente attraverso un menù a tendina.
+La schermata per la registraziome di un utente attraverso un menù a tendina.
 
 ![Locations](/ScreenshotsDemo/locations.png)
 
