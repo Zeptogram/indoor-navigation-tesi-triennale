@@ -7,15 +7,15 @@ Lo stage prevede innanzitutto un'indagine relativa a come graficamente le piante
 L'utente, infine, attraverso l'app, potrà contribuire a mantenere lo stato del contesto ambientale aggiornato. Ad esempio, potrà segnalare che una scala mobile è fuori servizio, oppure che un corridoio è affollato. L'applicazione dovrà mostrare l'interno di ogni edificio in 2D o 3D. Ogni mappa avrà come base un grafo con nodi ed archi e si baserà sull'algoritmo di Dijkstra per la navigazione e tenendo conto di preferenze (interne) e segnalazioni (esterne). La mappa deve essere in formato facilmente fruibile dall'utente e salvata in un formato che consente la modellazione dinamica (ex. XML, SVG o JSON).
 
 # Indice dei contentuti
-- [Ulteriori Informazioni sulla Proposta](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Ulteriori%20Informazioni%20sulla-Proposta)
-- [ToDo List](https://github.com/Zeptogram/indoor-navigation-tesi-triennale/#ToDo%20List)
+- [Ulteriori Informazioni sulla Proposta](#Ulteriori-Informazioni-sulla-Proposta)
+- [ToDo List](#ToDo-List)
 - [Studenti](#Studenti)
-- [Riferimenti Stage](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Riferimenti%20Stage)
-- [Riferimenti Progetto](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Riferimenti%20Progetto)
-- [Approfondimento su Navigine](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Approfondimento%20su%20Navigine)
-- [Piantine U14](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Piantine%20U14)
-- [Test su Beacon Estimote](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Test%20su%20Beacon%20Estimote)
-- [Applicazione Demo](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Applicazione%20Demo)
+- [Riferimenti Stage](#Riferimenti-Stage)
+- [Riferimenti Progetto](#Riferimenti-Progetto)
+- [Approfondimento su Navigine](#Approfondimento-su-Navigine)
+- [Piantine U14](#Piantine-U14)
+- [Test su Beacon Estimote](#Test-su-Beacon-Estimote)
+- [Applicazione Demo](#Applicazione-Demo)
 - [FAQ](#FAQ)
 
 # Ulteriori Informazioni sulla Proposta
