@@ -6,7 +6,6 @@
 [![Tesi su Overleaf](https://img.shields.io/static/v1?style=for-the-badge&message=Tesi%20Overleaf&color=47A141&logo=Overleaf&logoColor=FFFFFF&label=)](https://www.overleaf.com/read/tgvnszsrwjdt)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]([https://www.overleaf.com/read/tgvnszsrwjdt](https://www.java.com/it/))
 [![Android](https://img.shields.io/static/v1?style=for-the-badge&message=Android&color=222222&logo=Android&logoColor=3DDC84&label=)](https://developer.android.com/docs?hl=it)
-![API](https://img.shields.io/static/v1?style=for-the-badge&message=API%20Analysis&color=009688&logo=FastAPI&logoColor=FFFFFF&label=)
 
 # Autore e Ulteriori Informazioni
 
