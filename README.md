@@ -1,6 +1,6 @@
 # Tesi e Presentazione
-![Tesi](/Tesi_LT_28Luglio2023.pdf)
-![Presentazione](Presentazione_LT_24Luglio2023.pdf)
+- ![**Tesi**](/Tesi_LT_28Luglio2023.pdf)
+- ![**Presentazione**](Presentazione_LT_24Luglio2023.pdf)
 
 # Autore e Ulteriori Informazioni
 
