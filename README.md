@@ -24,7 +24,7 @@ L'utente, infine, attraverso l'app, potrà contribuire a mantenere lo stato del 
 - [ToDo List](#ToDo-List)
 - [Studenti](#Studenti)
 - [Riferimenti Stage](#Riferimenti-Stage)
-- [Riferimenti Progetto](#Riferimenti-Progetto)
+- [Analisi dei Servizi](#Analisi-dei-Servizi)
 - [Approfondimento su Navigine](#Approfondimento-su-Navigine)
 - [Piantine U14](#Piantine-U14)
 - [Test su Beacon Estimote](#Test-su-Beacon-Estimote)
@@ -59,7 +59,7 @@ Lo stage è stato svolto da:
 - **Tutor Universitario**: Prof. Micucci _<daniela.micucci@unimib.it>_
 - **Tutor Aziendale**: Prof. Ginelli _<davide.ginelli@unimib.it>_
 
-## Riferimenti Progetto
+## Analisi dei Servizi
 
 ### Riferimenti Principali
 
