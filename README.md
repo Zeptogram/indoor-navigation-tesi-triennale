@@ -351,9 +351,3 @@ La schermata che permette di gestire il proprio account e le preferenze di navig
 
 Il tema è stato variato, tendendo a colori rossi, ovvero quelli utilizzati dall'università Bicocca.
 
-
-# FAQ
-- *Si devono/possono inserire percorsi alternativi e fornire la scelta all'utente?* <br>
-Si, ma non necessari
-- *Si devono inserire percorsi che portano ad edifici diversi? (ex. U3-01 a U24-01)* <br>
-Se avanzasse tempo alla fine dello stage
