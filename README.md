@@ -22,7 +22,7 @@ L'utente, infine, attraverso l'app, potrà contribuire a mantenere lo stato del 
 ## Indice dei contenuti
 - [Ulteriori Informazioni sulla Proposta](#Ulteriori-Informazioni-sulla-Proposta)
 - [ToDo List](#ToDo-List)
-- [Studenti](##Studenti)
+- [Studenti](#Studenti)
 - [Riferimenti Stage](#Riferimenti-Stage)
 - [Analisi dei Servizi](#Analisi-dei-Servizi)
 - [Approfondimento su Navigine](#Approfondimento-su-Navigine)
