@@ -4,7 +4,7 @@ import com.navigine.navigine.demo.BuildConfig;
 
 public class UserSession {
 
-    public static String USER_HASH       = "0339-0433-D8AE-009B";
+    public static String USER_HASH       = "userHash";
     public static String USER_NAME       = "user";
     public static String USER_COMPANY    = "company";
     public static String USER_EMAIL      = "default@mail.com";
