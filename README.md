@@ -8,7 +8,7 @@
 # Autore e Ulteriori Informazioni
 
 - **Autore**: Elio Gargiulo
-- **Università**: Università degli studi Bicocca, Milano, Scienze Informatiche
+- **Università**: Università degli studi Bicocca, Milano
 - **Anno Accademico**: 2022/23
 
 # Stage
