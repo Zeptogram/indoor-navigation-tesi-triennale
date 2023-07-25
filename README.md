@@ -1,12 +1,12 @@
 # Tesi Triennale Scienze Informatiche
 > Un’app a supporto della navigazione indoor nel campus UniMiB
 
-[![Download Tesi PDF](https://img.shields.io/badge/Download%20Tesi-PDF-lime.svg)](https://github.com/Zeptogram/indoor-navigation-tesi-triennale/releases/download/tesi_presentazione/Tesi_LT_28Luglio2023.pdf)
-[![Download Presentazione PDF](https://img.shields.io/badge/Download%20Presentazione-PDF-orange.svg)](https://github.com/Zeptogram/indoor-navigation-tesi-triennale/releases/download/tesi_presentazione/Presentazione_LT_24Luglio2023.pdf)
-[![Tesi su Overleaf](https://img.shields.io/static/v1?style=flat&message=Tesi%20Overleaf&color=47A141&logo=Overleaf&logoColor=FFFFFF&label=)](https://www.overleaf.com/read/tgvnszsrwjdt)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)]([https://www.overleaf.com/read/tgvnszsrwjdt](https://www.java.com/it/))
-[![Android](https://img.shields.io/static/v1?style=flat&message=Android&color=222222&logo=Android&logoColor=3DDC84&label=)](https://developer.android.com/docs?hl=it)
-![API](https://img.shields.io/static/v1?style=flat&message=API%20Analysis&color=009688&logo=FastAPI&logoColor=FFFFFF&label=)
+[![Download Tesi PDF](https://img.shields.io/badge/Download%20Tesi-PDF-lime.svg?style=for-the-badge)](https://github.com/Zeptogram/indoor-navigation-tesi-triennale/releases/download/tesi_presentazione/Tesi_LT_28Luglio2023.pdf)
+[![Download Presentazione PDF](https://img.shields.io/badge/Download%20Presentazione-PDF-orange.svg?style=for-the-badge)](https://github.com/Zeptogram/indoor-navigation-tesi-triennale/releases/download/tesi_presentazione/Presentazione_LT_24Luglio2023.pdf)
+[![Tesi su Overleaf](https://img.shields.io/static/v1?style=for-the-badge&message=Tesi%20Overleaf&color=47A141&logo=Overleaf&logoColor=FFFFFF&label=)](https://www.overleaf.com/read/tgvnszsrwjdt)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]([https://www.overleaf.com/read/tgvnszsrwjdt](https://www.java.com/it/))
+[![Android](https://img.shields.io/static/v1?style=for-the-badge&message=Android&color=222222&logo=Android&logoColor=3DDC84&label=)](https://developer.android.com/docs?hl=it)
+![API](https://img.shields.io/static/v1?style=for-the-badge&message=API%20Analysis&color=009688&logo=FastAPI&logoColor=FFFFFF&label=)
 
 # Autore e Ulteriori Informazioni
 
