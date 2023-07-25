@@ -1,3 +1,13 @@
+# Tesi e Presentazione
+![Tesi](/Tesi_LT_28Luglio2023.pdf)
+![Presentazione](Presentazione_LT_24Luglio2023.pdf)
+
+# Autore e Ulteriori Informazioni
+
+- **Autore**: Elio Gargiulo
+- **Università**: Università degli studi Bicocca, Milano, Scienze Informatiche
+- **Anno Accademico**: 2022/23
+
 # Stage
 
 - **Titolo stage**:  App personalizzata di navigazione indoor per l'Ateneo 
