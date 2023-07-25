@@ -6,7 +6,7 @@
 Lo stage prevede innanzitutto un'indagine relativa a come graficamente le piante debbano essere presentate all'utente e come queste possano descrivere il contesto (dell'ambiente e personale). Quindi poi verrà richiesta l'implementazione di un prototipo che copra anche un solo edificio. <br>
 L'utente, infine, attraverso l'app, potrà contribuire a mantenere lo stato del contesto ambientale aggiornato. Ad esempio, potrà segnalare che una scala mobile è fuori servizio, oppure che un corridoio è affollato. L'applicazione dovrà mostrare l'interno di ogni edificio in 2D o 3D. Ogni mappa avrà come base un grafo con nodi ed archi e si baserà sull'algoritmo di Dijkstra per la navigazione e tenendo conto di preferenze (interne) e segnalazioni (esterne). La mappa deve essere in formato facilmente fruibile dall'utente e salvata in un formato che consente la modellazione dinamica (ex. XML, SVG o JSON).
 
-# Indice dei contentuti
+## Indice dei contenuti
 - [Ulteriori Informazioni sulla Proposta](#Ulteriori-Informazioni-sulla-Proposta)
 - [ToDo List](#ToDo-List)
 - [Studenti](#Studenti)
@@ -18,7 +18,7 @@ L'utente, infine, attraverso l'app, potrà contribuire a mantenere lo stato del 
 - [Applicazione Demo](#Applicazione-Demo)
 - [FAQ](#FAQ)
 
-# Ulteriori Informazioni sulla Proposta
+## Ulteriori Informazioni sulla Proposta
 
 Sviluppare un’app che funzioni per l’indoor che individua il percorso per aula o ristorazioni. Garantire Accesso anche per disabilità.
 
@@ -29,7 +29,7 @@ Sviluppare un’app che funzioni per l’indoor che individua il percorso per au
 - **Informarsi su**: Come vengono visualizzate le mappe e i percorsi.
 - **Cercare**: App su Apple o Google Play simili alla richiesta.
 
-# ToDo List
+## ToDo List
 
 - Ricerca di validi servizi per Mapping e Navigation.
 - Analisi sulla rappresentazione dei dati.
@@ -37,18 +37,18 @@ Sviluppare un’app che funzioni per l’indoor che individua il percorso per au
 - Progettare la soluzione finale (mockup).
 - Creare un'applicazione di testing su un edificio.
 
-# Studenti
+## Studenti
 
 - Biancini Mattia 865966
 - Gargiulo Elio 869184
 
-# Riferimenti Stage
+## Riferimenti Stage
 - **Tutor Universitario**: Prof. Micucci _<daniela.micucci@unimib.it>_
 - **Tutor Aziendale**: Prof. Ginelli _<davide.ginelli@unimib.it>_
 
-# Riferimenti Progetto
+## Riferimenti Progetto
 
-## Riferimenti Principali
+### Riferimenti Principali
 
 | Nome API | Linguaggi Supportati | Piattaforme Supportate | Costi | Tecnologie di Navigazione | Ulteriori Informazioni |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -59,8 +59,8 @@ Sviluppare un’app che funzioni per l’indoor che individua il percorso per au
 | [Situm](https://situm.com/en/desarrollo-mobile-sdk/) | Java, Objective-C, Dart | Android, iOS, Flutter | 30 days free | WiFi, BLE Beacons, Ultra-Broadband | Molto simile a Navigine, ottima compatibilità ma oltre i 30 giorni necessita di un pagamento. |
 | [IndoorAtlas](https://www.indooratlas.com/platform/) | JavaScript, Objective-C, Swift, Java | Android, iOS, React | 60 days free | WiFi, BLE Beacons, Posizionamento Geomagnetico, Inerzia, VIO (Realtà Aumentata), Posizionamento Barometrico  |Anche lui simile a Navigine, molto valido, ma vi è un limite di una location e 60 giorni di prova. |
 
-## Altri Riferimenti
-### OpenStreetMap
+### Altri Riferimenti
+#### OpenStreetMap
 - [Open Street Map](https://www.openstreetmap.org/#map=6/42.088/12.564) <br>
 *Non consente la visualizzazione dell'interno dell'edificio. Ottimo per avere una pianta generale di piú edifici e informazioni riguardo ad un edificio nel suo complesso.*
 - [Simple Indoor Tagging](https://wiki.openstreetmap.org/wiki/Simple_Indoor_Tagging) <br> 
@@ -85,8 +85,8 @@ Sviluppare un’app che funzioni per l’indoor che individua il percorso per au
 - [Navigine App](https://play.google.com/store/apps/details?id=com.navigine.navigine&hl=en&gl=US) <br>
 *Applicazione per Android e iOS, consente di visualizzare le mappe create su navigine e navigazione.*
 
-# Approfondimento su Navigine
-## Informazioni su Demo Navigine per Android
+## Approfondimento su Navigine
+### Informazioni su Demo Navigine per Android
 Necessita della registrazione sul [sito](https://locations.navigine.com/dashboard) per l'utilizzo.
 
 Una volta completata la registrazione, la demo necessita il login da parte dell'utente per poter accedere alle mappe create da quest'ultimo.
@@ -110,7 +110,7 @@ Per la creazione di mappe viene fornita una dashboard dove vi sono alcune funzio
 - Fornisce Listeners e Getters.
 - Download delle mappe dai server di Navigine.
 
-### Testing 
+#### Testing 
 
 L'applicazione è stata testata sia tramite l'emulatore fornito da Android Studio, sia da un dispositivo reale.
 
@@ -155,7 +155,7 @@ Forzando però l'applicazione ad impostare la posizione dell'utente ad una speci
 
 
 
-## Informazioni su Demo Navigine Flutter
+### Informazioni su Demo Navigine Flutter
 Come la demo per Android, richiede la registrazione, la presenza dell'userHash nel codice e la definizione di una mappa sul loro sito.
 
 La [demo](https://github.com/Navigine/Indoor-Navigation-Flutter-SDK/tree/main/example) si presenta molto più semplice rispetto a quella Android, che può definirsi quasi una vera e propria applicazione completa.
@@ -173,7 +173,7 @@ Le varie librerie sono divise per types e managers, e due classi principali che 
 La repository di GitHub che contiene l'SDK e l'esempio sembra essere in costante aggiornamento, quindi le procedure di installazione potrebbero cambiare, e protrebbero essere aggiunte più funzionalità.
 
 
-### Testing 
+#### Testing 
 
 La demo è stata testata su un ambiente Android. Per essere testata, oltre alla installazione di Flutter e del progetto (Può essere seguita [qui](https://github.com/Navigine/Indoor-Navigation-Flutter-SDK), necessita di alcune modifiche al codice.
 In particolare viene richiesto l'userHash dell'utente proprietario delle mappe nel file "MainActivity.java":
@@ -211,7 +211,7 @@ I/flutter (31068): onSingleTap
 I/flutter (31068): Point(264.029296875, 861.96875)
 ```
 
-## Algoritmi di navigazione
+### Algoritmi di navigazione
 Navigine utilizza diverse misurazioni per triangolare la posizione dell'utente, quali:
 - Accelerometro
 - Giroscopio
@@ -228,21 +228,21 @@ Nel codice sorgente vengono utilizzati contemporaneamente:
 - 1 strumento di misurazione tramite onde radio (WiFi, Beacon, ...)
 - 1 strumento di misurazione tramite sensori (Magnetometro, Accelerometro, ...)
 
-## Requisiti Minimi
-### Android
+### Requisiti Minimi
+#### Android
 - Android SDK API >= 21 (Android 5.0+);
 - Supporto per Bluetooth 4.0;
 - CPU delle seguenti architetture: arm, arm64, x86, x86_64.
 
-### Flutter
+#### Flutter
 - Supporto versione Android: SDK 21+ 
 - Supporto versione iOS: iOS 12+
 
-## Considerazioni Attuali
+### Considerazioni Attuali
 
 Navigine sembra essere una valida soluzione al problema principale. Fornisce, soprattutto tramite l'SDK Android, un ottimo punto di partenza dell'applicazione finale. Avendo già disponibili degli algoritmi di navigazione, e soprattutto una rappresentazione della mappa, una volta eseguita l'integrazione si potrebbe iniziare ad estendere l'applicazione Demo (creando ovviamente un progetto in Android Studio da zero) introducendo le preferenze dell'utente e tutto ciò rimanente. Si potrebbe poi provare ad utilizzare dei Beacon fisici (reali), in combinazione con la mappa vera e propria dell'edificio desirato.
 
-# Piantine U14
+## Piantine U14
 
 Sono state realizzate delle piantine (eventualmente convertibili in diversi formati di immagine) dell'edificio U14 sulla base dei riferimenti forniti nella cartella  **"Mappa U14/Riferimenti"**  e in seguito ad una investigazione effettuata direttamente nell'edificio dai membri dello stage, in particolare sulle singole stanze (per capire se fossero aule di professori, di studio, uscite di emergenza ecc.).
 
@@ -255,23 +255,23 @@ Sono state inserite le routes di navigazione, i punti di interesse fondamentali,
 
 In seguito le immagini delle mappe impostate su Navigine:
 
-## U14 - Piano -1
+### U14 - Piano -1
 
 ![U14 - Piano -1](/Mappa%20U14/Navigine/U14%20-%20Navigine%20-1.png)
 
-## U14 - Piano 0
+### U14 - Piano 0
 
 ![U14 - Piano 0](/Mappa%20U14/Navigine/U14%20-%20Navigine%200.png)
 
-## U14 - Piano 1
+### U14 - Piano 1
 
 ![U14 - Piano 1](/Mappa%20U14/Navigine/U14%20-%20Navigine%201.png)
 
-## U14 - Piano 2
+### U14 - Piano 2
 
 ![U14 - Piano 2](/Mappa%20U14/Navigine/U14%20-%20Navigine%202.png)
 
-# Test su Beacon Estimote
+## Test su Beacon Estimote
 
 Dopo aver acquisito alcuni Beacon Estimote (iBeacon), sono stati analizzati e testati per verificarne la funzionalità.
 
@@ -295,7 +295,7 @@ I Beacon, essendo degli iBeacon, possono essere inseriti e utilizzati nella piat
 
 Beacon usati per il test: Beacon Estimote, Developer preview kit. Compatibili con iPhone 4S, 5, 5C, 5S, iPad Mini, 3rd e 4th Generazione, Android 4.3+
 
-# Applicazione Demo
+## Applicazione Demo
 
 Dopo alcuni test effettuati con i Beacon, il setup delle mappe e test dell'applicazione demo di [Navigine](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Approfondimento-su-Navigine), è stata creata sulla base della demo una applicazione "mockup" che tenta di rappresentare una ipotetica inferfaccia della applicazione finale, variando nello specifico i colori e alcune schermate per renderle più coerenti alle nostre necessità.
 
