@@ -7,16 +7,16 @@ Lo stage prevede innanzitutto un'indagine relativa a come graficamente le piante
 L'utente, infine, attraverso l'app, potrà contribuire a mantenere lo stato del contesto ambientale aggiornato. Ad esempio, potrà segnalare che una scala mobile è fuori servizio, oppure che un corridoio è affollato. L'applicazione dovrà mostrare l'interno di ogni edificio in 2D o 3D. Ogni mappa avrà come base un grafo con nodi ed archi e si baserà sull'algoritmo di Dijkstra per la navigazione e tenendo conto di preferenze (interne) e segnalazioni (esterne). La mappa deve essere in formato facilmente fruibile dall'utente e salvata in un formato che consente la modellazione dinamica (ex. XML, SVG o JSON).
 
 # Indice dei contentuti
-- [Ulteriori Informazioni sulla Proposta](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Ulteriori-Informazioni-sulla-Proposta)
-- [ToDo List](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#ToDo-List)
-- [Studenti](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Studenti)
-- [Riferimenti Stage](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Riferimenti-Stage)
-- [Riferimenti Progetto](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Riferimenti-Progetto)
-- [Approfondimento su Navigine](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Approfondimento-su-Navigine)
-- [Piantine U14](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Piantine-U14)
-- [Test su Beacon Estimote](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Test-su-Beacon-Estimote)
-- [Applicazione Demo](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Applicazione-Demo)
-- [FAQ](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#FAQ)
+- [Ulteriori Informazioni sulla Proposta](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Ulteriori-Informazioni-sulla-Proposta)
+- [ToDo List](https://github.com/Zeptogram/indoor-navigation-tesi-triennale/#ToDo-List)
+- [Studenti](#Studenti)
+- [Riferimenti Stage](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Riferimenti-Stage)
+- [Riferimenti Progetto](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Riferimenti-Progetto)
+- [Approfondimento su Navigine](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Approfondimento-su-Navigine)
+- [Piantine U14](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Piantine-U14)
+- [Test su Beacon Estimote](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Test-su-Beacon-Estimote)
+- [Applicazione Demo](https://github.com/Zeptogram/indoor-navigation-tesi-triennale#Applicazione-Demo)
+- [FAQ](#FAQ)
 
 # Ulteriori Informazioni sulla Proposta
 
