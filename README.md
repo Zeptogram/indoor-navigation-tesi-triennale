@@ -29,7 +29,6 @@ L'utente, infine, attraverso l'app, potrà contribuire a mantenere lo stato del 
 - [Piantine U14](#Piantine-U14)
 - [Test su Beacon Estimote](#Test-su-Beacon-Estimote)
 - [Applicazione Demo](#Applicazione-Demo)
-- [FAQ](#FAQ)
 
 ## Ulteriori Informazioni sulla Proposta
 
