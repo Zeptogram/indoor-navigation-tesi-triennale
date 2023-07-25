@@ -1,4 +1,4 @@
-# Informazioni sulla Proposta
+# Stage
 
 - **Titolo stage**:  App personalizzata di navigazione indoor per l'Ateneo 
 - **Obiettivi formativi e competenze da acquisire:** Programmazione di dispositivi mobili 
