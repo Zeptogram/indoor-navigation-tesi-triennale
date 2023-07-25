@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        applicationId "com.navigine.navigine.demo"
+        minSdkVersion 23
+        targetSdkVersion 32
+        versionCode 3
+        versionName "3.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "DEFAULT_SERVER_URL", "\"https://ips.navigine.com\"")
+        buildConfigField "String", "DEFAULT_USER_HASH", "\"0000-0000-0000-0000\""
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    def support_version        = "1.4.1"
+    def fragment_version       = "1.4.1"
+    def material_version       = "1.5.0"
+    def constraint_version     = "2.1.3"
+    def coordinator_version    = "1.2.0"
+    def swipe_version          = "1.1.0"
+    def navigation_version     = "2.4.2"
+    def lifecycle_version      = "2.4.1"
+    def glide_version          = "4.13.0"
+    def junit_version          = "4.13.2"
+    def espresso_version       = "3.4.0"
+    def lottie_version         = "5.0.3"
+    def volley_version         = "1.2.1"
+    def shimmer_version        = "0.5.0"
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //navigine sdk
+    implementation project(":libnavigine")
+    //camera
+    implementation project(path: ':camera')
+    //test
+    testImplementation "junit:junit:$junit_version"
+    androidTestImplementation "androidx.test.ext:junit:1.1.3"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+    //support
+    implementation "androidx.appcompat:appcompat:$support_version"
+    //ui
+    implementation "androidx.constraintlayout:constraintlayout:$constraint_version"
+    implementation "com.google.android.material:material:$material_version"
+    implementation "androidx.coordinatorlayout:coordinatorlayout:$coordinator_version"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swipe_version"
+    //fragment
+    implementation "androidx.fragment:fragment:$fragment_version"
+    //navigation
+    implementation "androidx.navigation:navigation-fragment:$navigation_version"
+    implementation "androidx.navigation:navigation-ui:$navigation_version"
+    //lifecycle
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-process:$lifecycle_version"
+    //Glide
+    implementation      "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+    //Lottie
+    implementation "com.airbnb.android:lottie:$lottie_version"
+    //Volley
+    implementation "com.android.volley:volley:$volley_version"
+    //Shimmer
+    implementation "com.facebook.shimmer:shimmer:$shimmer_version"
+}
+
+task moveDebugApk(type: Copy) {
+    from file("$projectDir/build/intermediates/apk/debug/app-debug.apk")
+    into file("$rootDir")
+    rename("app-debug.apk", "NavigineDemo-debug.apk")
+}
+

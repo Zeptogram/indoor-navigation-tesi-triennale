@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/list_item_venue_empty" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_list_venue_icons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded_bottom_select_venue"
+        android:minHeight="@dimen/venue_icon_group_height"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="5"
+        tools:listitem="@layout/list_item_venue_icon" />
+
+</FrameLayout>
+
+

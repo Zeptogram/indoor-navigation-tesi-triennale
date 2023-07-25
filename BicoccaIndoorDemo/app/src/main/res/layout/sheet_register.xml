@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/host__sheet_main"
+        android:layout_width="match_parent"
+        android:layout_height="360dp">
+
+        <include layout="@layout/sheet_grapple" />
+
+        <TextView
+            android:id="@+id/sheet_signup_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_sheet_title_margin"
+            android:layout_marginTop="@dimen/login_sheet_title_margin"
+            android:text="Sign Up"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/sheet_signup_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@id/sheet_email_edit"
+            app:layout_constraintStart_toStartOf="@id/sheet_signup_title"
+            app:layout_constraintTop_toBottomOf="@id/sheet_signup_title"
+            tools:text="Confirmation Email sent!" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/host__sheet_close_button"
+            style="@style/AppTheme.Button.Close"
+            android:layout_marginTop="@dimen/login_sheet_title_margin"
+            android:layout_marginRight="@dimen/login_sheet_title_margin"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="16dp"
+            app:expandedHintEnabled="false"
+            app:endIconDrawable="@drawable/ic_avatar_mock"
+            app:endIconMode="custom"
+            app:hintEnabled="false"
+            app:placeholderText="Email"
+            app:placeholderTextColor="@color/colorSecondaryVariant"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/password_layout">
+
+        <EditText
+            android:id="@+id/sheet_email_edit"
+            style="@style/AppTheme.EditText.Dialog"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/password_layout"
+          />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="16dp"
+            app:expandedHintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false"
+            app:placeholderText="Password"
+            app:placeholderTextColor="@color/colorSecondaryVariant"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/cpassword_layout">
+
+        <EditText
+            android:id="@+id/sheet_password_edit"
+            style="@style/AppTheme.EditText.Dialog"
+            android:inputType="textPassword"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/cpassword_layout" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/cpassword_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="16dp"
+            app:expandedHintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false"
+            app:placeholderText="Confirm Password"
+            app:placeholderTextColor="@color/colorSecondaryVariant"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/host__sheet_change_button">
+
+
+        <EditText
+            android:id="@+id/sheet_cpassword_edit"
+            style="@style/AppTheme.EditText.Dialog"
+            android:inputType="textPassword"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/host__sheet_change_button" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <FrameLayout
+            android:id="@+id/host__anim_container"
+            android:layout_width="@dimen/login_items_height"
+            android:layout_height="@dimen/login_items_height"
+            android:layout_marginEnd="6dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/cpassword_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/host__progress_circular_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:visibility="gone"
+                app:hideAnimationBehavior="outward"
+                app:indicatorColor="@color/colorPrimary"
+                app:indicatorSize="24dp"
+                app:showAnimationBehavior="inward"
+                app:trackColor="@android:color/transparent"
+                app:trackThickness="1dp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/host__anim_status"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:lottie_autoPlay="false"
+                app:lottie_loop="false" />
+
+        </FrameLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/host__sheet_change_button"
+            style="@style/AppTheme.Button.Dialog"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Register Now"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/host__sheet_edit" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

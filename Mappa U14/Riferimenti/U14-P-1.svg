@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 106.3 13.3" style="enable-background:new 0 0 106.3 13.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#D25B73;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#F4C3CC;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#ADADAD;}
+	.st3{fill:none;stroke:#99854C;stroke-width:0.7087;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#26D07C;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#00B0B9;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#B1C9E8;}
+	.st7{fill:#FF0000;}
+	.st8{font-family:'ArialMT';}
+	.st9{font-size:2.1186px;}
+	.st10{font-family:'MyriadPro-Regular';}
+	.st11{font-size:2.8249px;}
+	.st12{fill-rule:evenodd;clip-rule:evenodd;fill:#EF3340;}
+</style>
+<g id="_x5F__x5F_B_x5F_RETINO_LAB">
+	<g id="HATCH">
+		<polygon class="st0" points="26.1,12.3 45.9,12.3 45.9,1 26.1,1 26.1,12.3 		"/>
+	</g>
+</g>
+<g id="_x5F__x5F_B_x5F_RETINO_AULE-ZONE_STUDIO">
+	<g id="HATCH_1_">
+		<polygon class="st1" points="80.8,12.3 95.2,12.3 95.2,1 80.8,1 80.8,12.3 		"/>
+	</g>
+</g>
+<g id="_x5F__x5F_B_x5F_RETINO_TECNICO">
+	<g id="HATCH_2_">
+		<polygon class="st2" points="26.1,5.2 20.7,5.2 20.7,1 26.1,1 26.1,5.2 		"/>
+	</g>
+	<g id="HATCH_5_">
+		<polygon class="st2" points="100.8,1 105.4,1 105.4,6.6 100.8,6.6 100.8,1 		"/>
+	</g>
+	<g id="HATCH_7_">
+		<path class="st2" d="M1,12.3V1h19.8v4.3h5.4v7.1L1,12.3L1,12.3z M60.7,10H45.9V1h14.9V10L60.7,10z M65.7,10.2V1h15.1v4.2h-7.5v5.1
+			H65.7L65.7,10.2z M95.2,12.3V1h5.6h4.6v5.6v5.8H95.2L95.2,12.3z"/>
+	</g>
+</g>
+<g id="_x5F__x5F_B_x5F_LINEE_NORMALIZZATE">
+	<g id="LWPOLYLINE">
+		<rect x="20.7" y="1" class="st3" width="5.3" height="4.3"/>
+	</g>
+	<g id="LWPOLYLINE_1_">
+		<rect x="26.1" y="1" class="st3" width="19.8" height="11.4"/>
+	</g>
+	<g id="LWPOLYLINE_2_">
+		<rect x="60.7" y="1" class="st3" width="5" height="4.2"/>
+	</g>
+	<g id="LWPOLYLINE_3_">
+		<rect x="73.3" y="5.1" class="st3" width="7.5" height="5.1"/>
+	</g>
+	<g id="LWPOLYLINE_4_">
+		<rect x="80.8" y="1" class="st3" width="14.3" height="11.4"/>
+	</g>
+	<g id="LWPOLYLINE_5_">
+		<rect x="100.8" y="1" class="st3" width="4.6" height="5.6"/>
+	</g>
+	<g id="LWPOLYLINE_6_">
+		<rect x="0.4" y="0.4" class="st3" width="105.6" height="12.6"/>
+	</g>
+	<g id="LINE">
+		<line class="st3" x1="60.7" y1="10" x2="60.7" y2="12.9"/>
+	</g>
+	<g id="LWPOLYLINE_7_">
+		<rect x="64" y="6.4" class="st3" width="1.7" height="3.8"/>
+	</g>
+	<g id="LINE_1_">
+		<line class="st3" x1="65.7" y1="10.2" x2="65.7" y2="12.9"/>
+	</g>
+	<g id="LWPOLYLINE_8_">
+		<polygon class="st3" points="95.2,12.3 95.2,1 100.8,1 105.4,1 105.4,6.6 105.4,12.3 		"/>
+	</g>
+	<g id="LWPOLYLINE_9_">
+		<rect x="45.9" y="1" class="st3" width="14.9" height="9.1"/>
+	</g>
+	<g id="LWPOLYLINE_10_">
+		<polygon class="st3" points="65.7,10.2 65.7,1 80.8,1 80.8,5.1 73.3,5.1 73.3,10.2 		"/>
+	</g>
+	<g id="LWPOLYLINE_11_">
+		<polygon class="st3" points="1,12.3 1,1 20.7,1 20.7,5.2 26.1,5.2 26.1,12.3 		"/>
+	</g>
+</g>
+<g id="_x5F__x5F_B_x5F_RETINO_SCALE_ASCENSORI">
+	<g id="HATCH_3_">
+		<polygon class="st4" points="60.7,5.1 65.7,5.1 65.7,1 60.7,1 60.7,5.1 		"/>
+	</g>
+</g>
+<g id="_x5F__x5F_B_x5F_RETINO_WC">
+	<g id="HATCH_4_">
+		<polygon class="st5" points="73.3,5.1 80.8,5.1 80.8,10.2 73.3,10.2 73.3,5.1 		"/>
+	</g>
+</g>
+<g id="_x5F__x5F_B_x5F_RETINO_MENSA-BAR-AREE_RISTORO">
+	<g id="HATCH_6_">
+		<polygon class="st6" points="64,10.2 65.7,10.2 65.7,6.4 64,6.4 64,10.2 		"/>
+	</g>
+</g>
+<g id="_x5F__x5F_B_TESTI_-_NOTE">
+	<g id="MTEXT">
+		<text transform="matrix(1 0 0 1 64.0084 9.078)" class="st7 st8 st9">D</text>
+	</g>
+	<g id="MTEXT_1_">
+		<text transform="matrix(1 0 0 1 62.3426 4.7986)" class="st7 st8 st9">A</text>
+	</g>
+</g>
+<g id="_x5F__x5F_B_TESTI">
+	<g id="MTEXT_2_">
+		<text transform="matrix(1 0 0 1 85.1194 5.6281)" class="st10 st11">AS </text>
+		<text transform="matrix(1 0 0 1 82.3099 8.9614)" class="st10 st11">14.A.1</text>
+	</g>
+	<g id="MTEXT_3_">
+		<text transform="matrix(1 0 0 1 32.3676 5.5443)" class="st10 st11">LADI </text>
+		<text transform="matrix(1 0 0 1 30.8914 8.8777)" class="st10 st11">14.A.1</text>
+	</g>
+	<g id="MTEXT_4_">
+		<text transform="matrix(1 0 0 1 74.0072 6.8915)" class="st10 st11">WCM</text>
+	</g>
+	<g id="MTEXT_5_">
+		<text transform="matrix(1 0 0 1 73.2471 9.4181)" class="st10 st11">WCF</text>
+	</g>
+	<g id="MTEXT_6_">
+		<text transform="matrix(1 0 0 1 73.6616 12.1389)" class="st10 st11">WCD</text>
+	</g>
+</g>
+<g id="_x5F__x5F_B_FRECCE_ENTRATA">
+	<g id="HATCH_8_">
+		<polygon class="st12" points="59.6,11.2 61.7,12.4 61.7,10 59.6,11.2 		"/>
+	</g>
+	<g id="HATCH_9_">
+		<polygon class="st12" points="45.1,11.2 47.1,12.4 47.1,10 45.1,11.2 		"/>
+	</g>
+	<g id="HATCH_10_">
+		<polygon class="st12" points="66.4,11.2 64.4,12.4 64.4,10 66.4,11.2 		"/>
+	</g>
+	<g id="HATCH_11_">
+		<polygon class="st12" points="82.3,11.2 80.2,12.4 80.2,10 82.3,11.2 		"/>
+	</g>
+	<g id="HATCH_12_">
+		<polygon class="st12" points="62.4,5.5 61.3,7.6 63.6,7.6 62.4,5.5 		"/>
+	</g>
+	<g id="HATCH_13_">
+		<polygon class="st12" points="77.1,9.3 75.9,11.3 78.2,11.3 77.1,9.3 		"/>
+	</g>
+</g>
+</svg>

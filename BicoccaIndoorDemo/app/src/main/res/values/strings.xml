@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">Bicocca Navigation</string>
+    <!--    bottom navigation-->
+    <string name="menu_item_locations">Locations</string>
+    <string name="menu_item_navigation">Navigation</string>
+    <string name="menu_item_debug">Debug</string>
+    <string name="menu_item_profile">Profile</string>
+    <!--    login screen-->
+    <string name="login_title">Welcome to Navigine \nindoor positioning app</string>
+    <string name="login_userhash_hint">USERHASH</string>
+    <string name="login_btn_title">Login</string>
+    <string name="login_action_change_host">Change server</string>
+    <!--    navigation screen-->
+    <string name="navigation_venue_route_btn_title">Route</string>
+    <string name="navigation_destination_select">Select destination</string>
+    <string name="navigation_promt_add_venue">Please add venue using WEB</string>
+    <string name="navigation_sublocation_load">Loading sublocation %1$s (%2$.2f x %3$.2f)</string>
+    <string name="navigation_sublocation_load_failed">Loading sublocation failed: invalid size: %1$.2f x %2$.2f</string>
+    <string name="navigation_location_load_delay_msg">Don\'t worry. We\'re almost done</string>
+    <!--    dialog host-->
+    <string name="dialog_host_hint">Host</string>
+    <string name="dialog_host_btn_title">Change</string>
+    <!--    dialog permission-->
+    <string name="dialog_permission_title_location">This app needs location access</string>
+    <string name="dialog_permission_title_location_bg">This app needs background location access</string>
+    <string name="dialog_permission_title_bluetooth">This app needs bluetooth access</string>
+    <string name="dialog_permission_body_location">Please grant location access so this app can detect beacons</string>
+    <string name="dialog_permission_body_location_bg">Please grant location access so this app can detect beacons in the background</string>
+    <string name="dialog_permission_body_bluetooth">Please grant bluetooth access so this app can interact with beacons</string>
+    <string name="dialog_permission_ok">UNDERSTAND</string>
+    <string name="dialog_action_ok">ok</string>
+    <string name="dialog_action_understand">understand</string>
+    <!--    no location layout-->
+    <string name="no_location_title">No location</string>
+    <string name="no_location_subtitle">You have to choose map in locations\n tab to work in this mode</string>
+    <string name="no_location_btn_title">Choose map</string>
+    <!--    debug-->
+    <string name="debug_info_field_1">App version</string>
+    <string name="debug_info_field_2">Device ID</string>
+    <string name="debug_info_field_3">Location</string>
+    <string name="debug_info_field_4">Position</string>
+    <string name="debug_info_field_5_1">Bluetooth</string>
+    <string name="debug_info_field_5_2">Geolocation</string>
+    <string name="debug_info_field_6">Device model</string>
+    <string name="debug_sensor_field_1">Accelerometer</string>
+    <string name="debug_sensor_field_2">Magnetometer</string>
+    <string name="debug_sensor_field_3">Gyroscope</string>
+    <string name="debug_sensor_field_4">Barometer</string>
+    <string name="debug_sensor_field_5">Orientation</string>
+    <string name="debug_expand_list_nothing">Nothing to expand</string>
+    <string name="debug_copy_list_content">List content copied</string>
+    <string name="debug_copy_device_id">Device id copied</string>
+    <!--    profile-->
+    <string name="profile_user">User</string>
+    <string name="profile_company">Company</string>
+    <string name="profile_email">E-mail</string>
+    <string name="profile_copy">Copied!</string>
+    <!--    errors-->
+    <string name="err_sdk_not_init">SDK not initialized</string>
+    <string name="err_profile_update_auth">Failed update user info. Authentication error</string>
+    <string name="err_locations_update">Failed to download locations list</string>
+    <string name="err_network">Cannot connect to host…Please check your connection!</string>
+    <string name="err_network_server">The server could not be found. Please try again after some time</string>
+    <string name="err_network_auth">Authentication error</string>
+    <string name="err_network_parse">Parsing error. Please try again after some time</string>
+    <string name="err_network_no_connection">No network connection</string>
+    <string name="err_network_timeout">Connection TimeOut. Please check your internet connection</string>
+    <string name="err_network_server_incorrect">The server is incorrect</string>
+    <string name="err_network_response_parse">Error while parse response</string>
+    <string name="err_deep_link">Intent keys are null</string>
+    <string name="err_deep_link_send">Failed to send pending intent with deep link</string>
+    <string name="err_deep_link_parse">Error while parsing deep link params</string>
+    <string name="err_permission_camera">Camera permission required</string>
+    <string name="err_permission_bluetooth">To determine your location, please, grant bluetooth permission</string>
+    <string name="err_permission_location">To determine your location, please, grant location permission</string>
+    <string name="err_permission_location_background">To determine your location in background, please, grant location permission by selecting first option in permissions settings</string>
+    <string name="err_permission_location_background_api_30">To determine your location in background, please, grant location permission by selecting \'%1$s\' in settings</string>
+    <string name="err_navigation_state_bluetooth">Your Bluetooth is not enabled, please turn it on to get the Navigation results!</string>
+    <string name="err_navigation_state_gps">Your GPS is not enabled, please turn it on to get the Navigation results!</string>
+    <string name="err_navigation_state_gps_bluetooth">Your GPS and Bluetooth are not enabled, please turn it on to get the Navigation results!</string>
+    <string name="err_navigation_position_update">Position update error</string>
+    <string name="err_navigation_position_define">Position isn\'t defined</string>
+    <string name="err_navigation_no_route">No route path</string>
+    <string name="err_debug_os_version">Error while getting OS version</string>
+    <!--    miscellaneous-->
+    <string name="search_title">Search</string>
+    <string name="state_on">on</string>
+    <string name="state_off">off</string>
+    <!--    permissions-->
+    <string name="permission_rationale_message_bg_access">In order to ensure correct and effective navigation and positioning services, the application has to collect location data.
+For push notifications, the application has to work in background mode</string>
+    <string name="permission_rationale_message_bluetooth">To use all the features of the application grant bluetooth permission</string>
+    <!--    venue-->
+    <string name="venue_lift">Lift</string>
+    <string name="venue_stairs">Stairs</string>
+    <string name="venue_cosmetics">Cosmetics</string>
+    <string name="venue_jewellery">Jewellery</string>
+    <string name="venue_gifts">Gifts</string>
+    <string name="venue_toilet">Toilet</string>
+    <string name="venue_cloakroom">Cloakrooms</string>
+    <string name="venue_traveller">Traveller</string>
+    <string name="venue_meeting">Meeting</string>
+    <string name="venue_police">Police</string>
+    <string name="venue_services">Services</string>
+    <string name="venue_wifi">Wifi</string>
+    <string name="venue_train">Train</string>
+    <string name="venue_general">General</string>
+    <string name="venue_escalator">Escalator</string>
+    <string name="venue_car">Car</string>
+    <string name="venue_banking">Banking</string>
+    <string name="venue_florists">Florists</string>
+    <string name="venue_pets">Pets</string>
+    <string name="venue_footwear">Footwear</string>
+    <string name="venue_food">Cafes</string>
+    <string name="venue_hairdressing_and_beauty"><![CDATA[Hairdressing & Beauty]]></string>
+    <string name="venue_homeware">Homeware</string>
+    <string name="venue_leisure">Leisure</string>
+    <string name="venue_music">Music</string>
+    <string name="venue_newsagents">Newsagents</string>
+    <string name="venue_optometrists">Optometrists</string>
+    <string name="venue_phones">Phones</string>
+    <string name="venue_pharmacies">Pharmacies</string>
+    <string name="venue_supermarket">Supermarket</string>
+    <string name="venue_clothing">Clothing</string>
+    <string name="venue_children">Children</string>
+    <!--    network-->
+    <string name="net_response_user">user</string>
+    <string name="net_waiting_for_response">waiting for response…</string>
+    <string name="net_server_valid">The server is correct</string>
+    <string name="net_get_key_id">id</string>
+    <string name="net_get_key_active">active</string>
+    <string name="net_get_key_name">name</string>
+    <string name="net_get_key_company">company_name</string>
+    <string name="net_get_key_email">email</string>
+    <string name="net_get_key_hash">hash</string>
+    <string name="net_get_key_avatar">avatar_url</string>
+    <string name="net_response_key_company">company</string>
+</resources>

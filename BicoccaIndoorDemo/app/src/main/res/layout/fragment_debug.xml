@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/debug__root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/debug__main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/debug__info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item_debug_info" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/debug__beacons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item_debug" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/debug__wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item_debug" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/debug__eddystone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item_debug" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/debug__rtt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item_debug" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/debug__ble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item_debug" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/debug__sensors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="3"
+            tools:listitem="@layout/list_item_debug" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
