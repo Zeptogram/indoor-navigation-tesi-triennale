@@ -313,42 +313,70 @@ Beacon usati per il test: Beacon Estimote, Developer preview kit. Compatibili co
 ## Applicazione Demo
 
 Dopo alcuni test effettuati con i Beacon, il setup delle mappe e test dell'applicazione demo di [Navigine](#Approfondimento-su-Navigine), è stata creata sulla base della demo una applicazione "mockup" che tenta di rappresentare una ipotetica inferfaccia della applicazione finale, variando nello specifico i colori e alcune schermate per renderle più coerenti alle nostre necessità.
+Il tema è stato variato, tendendo a colori rossi, ovvero quelli utilizzati dall'università Bicocca.
 
-![Icona](/ScreenshotsDemo/app_icon.png)
+
+### Icona
+<hr>
+<p align="center">
+  <img width="200" heigth="200"src="/ScreenshotsDemo/app_icon.png">
+</p>
 
 <br>
 
 L'icona dell'applicazione realizzata con il software "Adobe Photoshop".
 
-![Login](/ScreenshotsDemo/login.png)
+### Login
+<hr>
+<p align="center">
+  <img width="300" heigth="300" src="/ScreenshotsDemo/login.png">
+</p>
 
 <br>
 
 La schermata iniziale dell'applicazione dove si effettua il login tramite email e password. Nell'applicazione viene ancora utilizzato l'userHash al posto della email come metodo di login dato che non è stato creato ancora un sistema di account (che può essere implementato in futuro attraverso [Firebase Authentication](https://firebase.google.com/docs/auth?hl=it) per esempio).
 
-![Sign Up](/ScreenshotsDemo/signup.png)
+### Sign Up
+<hr>
+<p align="center">
+  <img width="300" heigth="300" src="/ScreenshotsDemo/signup.png">
+</p>
 
 <br>
 
 La schermata per la registraziome di un utente attraverso un menù a tendina.
 
-![Locations](/ScreenshotsDemo/locations.png)
+### Locations
+<hr>
+
+<p align="center">
+  <img width="300" heigth="300" src="/ScreenshotsDemo/locations.png">
+</p>
 
 La schermata che permette di effettuare la scelta dell'edificio (mappa di navigazione).
 
 <br>
 
-![Navigation](/ScreenshotsDemo/navigation.png)
+### Navigation
+<hr>
+
+<p align="center">
+  <img width="300" heigth="300" src="/ScreenshotsDemo/navigation.png">
+</p>
 
 La schermata di navigazione vera e propria dell'applicazione, con punti di interesse, zoom, piani etc. (si veda l'approfondimento su Navigine).
 
 <br>
 
-![Settings](/ScreenshotsDemo/settings.png)
+### Settings
+<hr>
+
+<p align="center">
+  <img width="300" heigth="300" src="/ScreenshotsDemo/settings.png">
+</p>
 
 La schermata che permette di gestire il proprio account e le preferenze di navigazione. Al momento sono state inserite quattro preferenze mockup attivabili e disattivabili tramite uno Switch, ma come per il sistema di account, è implementabile in futuro. 
 
 <br>
 
-Il tema è stato variato, tendendo a colori rossi, ovvero quelli utilizzati dall'università Bicocca.
 
