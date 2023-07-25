@@ -32,7 +32,6 @@ Sviluppare un’app che funzioni per l’indoor che individua il percorso per au
 # ToDo List
 
 - Ricerca di validi servizi per Mapping e Navigation.
-- Struttura dell'applicazione. [PDF di una potenziale struttura dell'App iniziale](https://drive.google.com/file/d/1Dagd9TOl2iCbNfwE-EoBOhf0Akqpw5Rd/view?usp=share_link)
 - Analisi sulla rappresentazione dei dati.
 - Analisi sull'implementazione dei dati.
 - Progettare la soluzione finale (mockup).
@@ -125,7 +124,7 @@ All'apertura l'applicazione richiede il login da parte dell'utente, inserendo qu
 // Al momento sono presenti, eccetto per l'userHash, dei dati fittizi.
 public class UserSession {
 
-    public static String USER_HASH       = "0339-0433-D8AE-009B";
+    public static String USER_HASH       = "userHash";
     public static String USER_NAME       = "user";
     public static String USER_COMPANY    = "company";
     public static String USER_EMAIL      = "default@mail.com";
@@ -185,7 +184,7 @@ public class MainActivity extends FlutterActivity {
   @Override
   public void configureFlutterEngine(@NonNull FlutterEngine flutterEngine) {
     Navigine.initialize(getApplicationContext());
-    NavigineSdk.setUserHash("0339-0433-D8AE-009B");
+    NavigineSdk.setUserHash("userHash");
     super.configureFlutterEngine(flutterEngine);
   }
 }
