@@ -1,6 +1,9 @@
-# Tesi e Presentazione
-- ![**Tesi**](/Tesi_LT_28Luglio2023.pdf)
-- ![**Presentazione**](Presentazione_LT_24Luglio2023.pdf)
+# Tesi Triennale Scienze Informatiche
+> Un’app a supporto della navigazione indoor nel campus UniMiB
+
+[![Download Tesi PDF](https://img.shields.io/badge/Download%20Tesi-PDF-lime.svg)]()
+[![Download Presentazione PDF](https://img.shields.io/badge/Download%20Presentazione-PDF-orange.svg)]()
+[![Tesi su Overleaf](https://img.shields.io/badge/Tesi-Overleaf-green.svg)](https://www.overleaf.com/read/tgvnszsrwjdt)
 
 # Autore e Ulteriori Informazioni
 
