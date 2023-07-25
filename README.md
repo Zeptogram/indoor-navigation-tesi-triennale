@@ -311,7 +311,7 @@ Beacon usati per il test: Beacon Estimote, Developer preview kit. Compatibili co
 
 ## Applicazione Demo
 
-Dopo alcuni test effettuati con i Beacon, il setup delle mappe e test dell'applicazione demo di [Navigine](https://gitlab.com/unimib-wayfinding/indoor-navigation-biancini-gargiulo#Approfondimento-su-Navigine), è stata creata sulla base della demo una applicazione "mockup" che tenta di rappresentare una ipotetica inferfaccia della applicazione finale, variando nello specifico i colori e alcune schermate per renderle più coerenti alle nostre necessità.
+Dopo alcuni test effettuati con i Beacon, il setup delle mappe e test dell'applicazione demo di [Navigine](#Approfondimento-su-Navigine), è stata creata sulla base della demo una applicazione "mockup" che tenta di rappresentare una ipotetica inferfaccia della applicazione finale, variando nello specifico i colori e alcune schermate per renderle più coerenti alle nostre necessità.
 
 ![Icona](/ScreenshotsDemo/app_icon.png)
 
